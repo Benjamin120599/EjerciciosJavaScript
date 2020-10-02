@@ -8,7 +8,7 @@
         <title>Ejercicio 01</title>
 
         <link rel='stylesheet' type="text/css" media="screen" href="../CSS/Estilos.css">
-        <script src=""></script>
+        <script src="../JavaScript/ejercicio01.js"></script>
     </head>
 
     <body>
@@ -102,7 +102,7 @@
                     </select>
 
                     <label>Estado:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <select id="dia_nacimiento" name="dia_nacimiento" required>
+                    <select id="estado" name="estado" required>
                         <option value="0" selected>Seleccionar el estado</option>
                         <option value="1">Aguascalientes</option>
                         <option value="2">Baja California</option>
@@ -144,7 +144,7 @@
 
         </fieldset>
 
-        <button>Generar CURP</button>
+        <button onclick="generarCurp()">Generar CURP</button>
         
 
     </body>
