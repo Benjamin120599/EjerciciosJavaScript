@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Ejercicio 01</title>
+
+        <link rel='stylesheet' type="text/css" media="screen" href="../CSS/Estilos.css">
+        <script src=""></script>
+    </head>
+
+    <body>
+
+        <header> 
+            <h1>CONUSLTAR CURP</h1>
+        </header>
+
+        <fieldset>
+            <legend>&nbsp; Datos CURP &nbsp;</legend>
+
+            <form id="formulario_curp">
+
+                <div>
+                    <label>Nombre(s):</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    <input type="text" id="caja_nombre" name="caja_nombre" required/>
+            
+                    <label>Primer Apellido:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="text" id="caja_apellido1" name="caja_apellido1" required/>
+                </div>
+
+                <div>
+                    <label>Segundo Apellido:</label>&nbsp;&nbsp;
+                    <input type="text" id="caja_apellido2" name="caja_apellido2"/>
+                    
+                    <label>Día de Nacimiento:</label> 
+                    <select id="dia_nacimiento" name="dia_nacimiento" required>
+                        <option value="0" selected>Seleccionar el día</option>
+                        <option value="1">01</option>
+                        <option value="2">02</option>
+                        <option value="3">03</option>
+                        <option value="4">04</option>
+                        <option value="5">05</option>
+                        <option value="6">06</option>
+                        <option value="7">07</option>
+                        <option value="8">08</option>
+                        <option value="9">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label>Mes de Nacimiento:</label> 
+                    <select id="mes_nacimiento" name="mes_nacimiento" required>
+                        <option value="0" selected>Seleccionar el mes</option>
+                        <option value="1">01</option>
+                        <option value="2">02</option>
+                        <option value="3">03</option>
+                        <option value="4">04</option>
+                        <option value="5">05</option>
+                        <option value="6">06</option>
+                        <option value="7">07</option>
+                        <option value="8">08</option>
+                        <option value="9">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+    
+                    <label>Año Nacimiento:</label>&nbsp;&nbsp;&nbsp; 
+                    <input type="text" id="caja_año" name="caja_año" required/>
+                </div>
+               
+                <div>
+                    <label>Sexo:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select id="sexo" name="sexo" required>
+                        <option value="0" selected>Seleccionar el sexo</option>
+                        <option value="1">Mujer</option>
+                        <option value="2">Hombre</option>
+                    </select>
+
+                    <label>Estado:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select id="dia_nacimiento" name="dia_nacimiento" required>
+                        <option value="0" selected>Seleccionar el estado</option>
+                        <option value="1">Aguascalientes</option>
+                        <option value="2">Baja California</option>
+                        <option value="3">Baja California Sur</option>
+                        <option value="4">Campeche</option>
+                        <option value="5">Chiapas</option>
+                        <option value="6">Chihuahua</option>
+                        <option value="7">Coahuila</option>
+                        <option value="8">Colima</option>
+                        <option value="9">Distrito Federal</option>
+                        <option value="10">Durango</option>
+                        <option value="11">Estado de México</option>
+                        <option value="12">Guanajuato</option>
+                        <option value="13">Guerrero</option>
+                        <option value="14">Hidalgo</option>
+                        <option value="15">Jalisco</option>
+                        <option value="16">Michoacán</option>
+                        <option value="17">Morelos</option>
+                        <option value="18">Nayarit</option>
+                        <option value="19">Nuevo león</option>
+                        <option value="20">Oaxaca</option>
+                        <option value="21">Puebla</option>
+                        <option value="22">Querétaro</option>
+                        <option value="23">Quintana Roo</option>
+                        <option value="24">San Luis Potosí</option>
+                        <option value="25">Sinaloa</option>
+                        <option value="26">Sonora</option>
+                        <option value="27">Tabasco</option>
+                        <option value="28">Tamaulipas</option>
+                        <option value="29">Tlaxcala</option>
+                        <option value="30">Veracruz</option>
+                        <option value="31">Yucatán</option>
+                        <option value="32">Zacatecas</option>
+                        <option value="33">Nacido en el extranjero</option>
+                    </select>
+                </div>
+
+            </form>
+
+
+        </fieldset>
+        
+
+    </body>
+
+</html>
