@@ -24,15 +24,15 @@
 
                 <div>
                     <label>Nombre(s):</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-                    <input type="text" id="caja_nombre" name="caja_nombre" required/>
+                    <input type="text" id="caja_nombre" name="caja_nombre" required placeholder="Ingresa tu nombre(s)"/>
             
                     <label>Primer Apellido:</label>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="text" id="caja_apellido1" name="caja_apellido1" required/>
+                    <input type="text" id="caja_apellido1" name="caja_apellido1" required placeholder="Ingresa tu primer apellido"/>
                 </div>
 
                 <div>
                     <label>Segundo Apellido:</label>&nbsp;&nbsp;
-                    <input type="text" id="caja_apellido2" name="caja_apellido2"/>
+                    <input type="text" id="caja_apellido2" name="caja_apellido2" placeholder="Ingresa tu segundo apellido"/>
                     
                     <label>Día de Nacimiento:</label> 
                     <select id="dia_nacimiento" name="dia_nacimiento" required>
@@ -90,7 +90,7 @@
                     </select>
     
                     <label>Año Nacimiento:</label>&nbsp;&nbsp;&nbsp; 
-                    <input type="text" id="caja_año" name="caja_año" required/>
+                    <input type="number" maxlength="4" id="caja_año" name="caja_año" required placeholder="Ingresa el año (Ej: 1943)"/>
                 </div>
                
                 <div>
@@ -142,8 +142,9 @@
 
             </form>
 
-
         </fieldset>
+
+        <button>Generar CURP</button>
         
 
     </body>
