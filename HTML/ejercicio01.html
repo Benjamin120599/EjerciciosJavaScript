@@ -20,7 +20,7 @@
         <fieldset>
             <legend>&nbsp; Datos CURP &nbsp;</legend>
 
-            <form id="formulario_curp">
+            <form id="formulario_curp" action="" onsubmit="alert(generarCurp())">
 
                 <div>
                     <label>Nombre(s):</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
@@ -140,11 +140,14 @@
                     </select>
                 </div>
 
+                <input type="submit" value="Generar CURP"> 
+
             </form>
 
         </fieldset>
 
-        <button onclick="generarCurp()">Generar CURP</button>
+        <!--<button onclick="return verificarDatos() ? alert( generarCurp()): alert('No se pudo generar la CURP')">Generar CURP</button>-->
+       
         
 
     </body>
