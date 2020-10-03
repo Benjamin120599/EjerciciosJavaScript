@@ -19,17 +19,17 @@
         <fieldset>
             <legend>&nbsp; CONVERSIONES &nbsp;</legend>
 
-            <form id="formulario_conversiones" action="" onsubmit="alert(generarCurp())">
+            <form id="formulario_conversiones" action="" onsubmit= "alert( 'Numero octal: '+octal()+'\nNumero Binario: '+binario()+'\nHexadecimal: '+hexadecimal() )">
 
                 <div>
                     <label>Numero Decimal:</label> 
                     <input type="text" id="caja_decimal" name="caja_decimal" required placeholder="Ingresa un número decimal"/>
-            
-                </div> 
+        
+                </div>
 
                 <input type="submit" value="OCTAL"> 
-                <input type="submit" value="HEXADECIMAL"> 
-                <input type="submit" value="BINARIO">
+                <!--<input type="submit" value="HEXADECIMAL"> 
+                <input type="submit" value="BINARIO">-->
 
             </form>
 

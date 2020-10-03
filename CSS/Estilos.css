@@ -82,7 +82,7 @@ form input, form select, form label{
     color: #525c66; 
     font-size: 1em;
     resize: vertical; 
-    width: 20px;
+    width: 400px;
 }
 
 
@@ -99,4 +99,3 @@ button {
     display: inline-block;
     /*border: 2px solid #0016b0;*/
 }
-
