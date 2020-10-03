@@ -3,7 +3,7 @@ function generarCurp() {
     var curp = "";
 
     var apellido1 = document.getElementById('caja_apellido1').value;
-    apellido1.toUpperCase();
+    apellido1 = apellido1.toUpperCase();
 
     //Primer letra y primer vocal del primer apellido
     if(apellido1 != null || apellido1.length != 0 ) {
@@ -18,7 +18,7 @@ function generarCurp() {
     }
 
     var apellido2 = document.getElementById('caja_apellido2').value;
-    apellido2.toUpperCase();
+    apellido2 = apellido2.toUpperCase();
 
     //Primera letra del segundo apellido
     if(apellido2 != null || apellido2.length != 0) {
@@ -28,7 +28,7 @@ function generarCurp() {
     }
 
     var nombre = document.getElementById('caja_nombre').value;
-    nombre.toUpperCase();
+    nombre = nombre.toUpperCase();
 
     //Primer letra del nombre
     if(nombre != null || nombre.length != 0) {
